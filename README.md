@@ -19,6 +19,6 @@ Open `index.html` in a browser. The site uses relative links and does not requir
 
 ## Publish with GitHub Pages
 
-This repository includes a GitHub Actions workflow that publishes the static files to GitHub Pages whenever changes are pushed to the `main` branch. In the repository settings, enable Pages and select **GitHub Actions** as the build and deployment source if it is not enabled automatically.
+In the GitHub repository, open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/(root)`, then save. GitHub Pages will publish the static files and update the site when changes are pushed to `main`.
 
 Before publishing, replace all bracketed company placeholders, confirm the legal and regulatory content with Sivels Finance, add an approved enquiry form endpoint, and update the privacy disclosures to match actual data practices.

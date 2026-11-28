@@ -49,7 +49,8 @@ const revealTargets = document.querySelectorAll([
   '.values-grid > div', '.faq-list details', '.testimonial-box', '.vision-cards article', '.document-card',
   '.feature-facts > div', '.mini-steps > div', '.contact-form', '.numbers-grid > div', '.lap-types > div',
   '.funds-list > div', '.reason-grid > div', '.micro-audience > div', '.nextgen-cards > div',
-  '.variant-detail-card', '.regulatory-card', '.grievance-card', 'main h2'
+  '.variant-detail-card', '.regulatory-card', '.grievance-card', 'main h2',
+  '.h-product', '.h-bento > *', '.h-steps li', '.h-serve li', '.h-faq details', '.h-calc', '.h-contact'
 ].join(','));
 if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const revealObserver = new IntersectionObserver(entries => {
